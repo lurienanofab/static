@@ -1,0 +1,377 @@
+﻿html, body, form {
+    height: 100%;
+    margin: 0;
+	padding: 0;
+}
+
+body {
+    font: normal 10pt arial;
+}
+
+.main_box
+{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.menu_container
+{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+}
+.menu_box
+{
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin: 0px;
+    border-bottom: solid 5px #A0A0A0;
+}
+.top_menu
+{
+    background-color: #FFFFFF;
+    width: 864px;
+}
+.content_container
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: none;
+    overflow: visible;
+}
+.content_box
+{
+    border: none;
+    background-color: #FFFFFF;
+    padding: 0;
+}
+/*==============================================*/
+/*===== Standard App Container =================*/
+/*==============================================*/
+.app
+{
+    padding: 0;
+    height: 100%;
+}
+
+.app .main
+{
+    padding: 0;
+    height: 100%;
+    /*background-color: #F8F8FF;*/
+}
+
+.page {
+    padding: 10px;
+}
+
+    .page h2 {
+        color: #003366;
+    }
+
+	.page a:link {
+		text-decoration: none;
+		color: #003366;
+	}
+
+	.page a:visited {
+		color: #003366;
+	}
+
+	.page a:hover {
+		text-decoration: underline;
+		color: #336699;
+	}
+		
+    .page .nodata {
+        font-style: italic;
+        color: #808080;
+    }
+
+    .page section,
+	.page .section {
+        border: 1px solid #CCCCCC;
+        margin-bottom: 10px;
+		background-color: #FFFFFF;
+    }
+
+        .page section .title,
+		.page .section .title {
+            padding: 5px;
+            margin: 5px;
+            background-color: #DEE1E7;
+            font-weight: bold;
+			color: #003366;
+			border: solid 1px #BCC7D8;
+        }
+
+        .page section .content,
+		.page .section .content {
+            padding: 10px;
+        }
+
+.dialog {
+    display: none;
+}
+/*==============================================*/
+/*===== Standard Two Column Layout =============*/
+/*==============================================*/
+.layout
+{
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.layout .left-panel
+{
+    background-color: #E5E5E5;
+    border-right: 1px solid #808080;
+    padding: 0px;
+}
+.layout .right-panel
+{
+    padding: 0px;
+}
+/*==============================================*/
+/*===== Standard Table =========================*/
+/*==============================================*/
+.app .grid
+{
+    border-collapse: collapse;
+    table-layout: fixed;
+    font-size: 10pt;
+}
+.app .grid th
+{
+    padding: 3px;
+    background-color: #DCDCDC;
+    border: solid 1px #AAAAAA;
+}
+.app .grid td
+{
+    padding: 3px;
+		background-color: #FFFFFF;
+    border: solid 1px #AAAAAA;
+}
+.app .grid .item
+{
+    background-color: #F8F8F8;
+}
+.app .grid .altitem
+{
+    background-color: #E8E8E8;
+}
+/*==============================================*/
+/*===== Properties Table =======================*/
+/*==============================================*/
+table.properties
+{
+    border-collapse: collapse;
+}
+table.properties > tbody > tr > th
+{
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #E5E5E5;
+}
+table.properties > tbody > tr > td
+{
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #E5E5E5;
+}
+/*==============================================*/
+/*===== Standard Headers =======================*/
+/*==============================================*/
+.app h2
+{
+    margin: 4px;
+    font-size: 14pt;
+    font-weight: 600;
+    color: #003366;
+}
+.app h3
+{
+    margin: 2px;
+    font-size: 12pt;
+    font-weight: 500;
+    color: #003366;
+}
+.app h4
+{
+    margin: 2px;
+    font-size: 8pt;
+    font-weight: 300;
+    color: #003366;
+}
+
+.page-header {
+    font-weight: bold;
+    font-size: large;
+    color: #0033ff;
+    font-family: 'Arial Black';
+    font-variant: small-caps;
+}
+
+.app .button-group-header
+{
+    font-weight: bold;
+    font-size: 11pt;
+    color: #000080;
+    font-family: 'Arial';
+    text-align: center;
+}
+
+.command-button {
+    background-color: whitesmoke;
+    border: 1px solid darkblue;
+    color: darkblue;
+    font-family: Arial;
+    font-size: x-small;
+    margin: 1px;
+    text-align: center;
+}
+/*==============================================*/
+/*===== Standard Navigation ====================*/
+/*==============================================*/
+.no-bootstrap.nav {
+    margin: 0;
+    padding: 0;
+    font-size: 12pt;
+}
+
+.no-bootstrap.nav a {
+    margin: 0;
+    display: block;
+    padding: 15px;
+}
+
+.no-bootstrap.nav a:link,
+.no-bootstrap.nav a:visited,
+.no-bootstrap.nav a:active {
+    text-decoration: none;
+    color: #003366;
+    border-top: solid 1px #E5E5E5;
+    border-bottom: solid 1px #E5E5E5;
+}
+
+.no-bootstrap.nav a:hover,
+.no-bootstrap.nav a.nav-selected:hover {
+    text-decoration: none;
+    color: #003366;
+    border-top: solid 1px #C0C0C0;
+    border-bottom: solid 1px #C0C0C0;
+    background-color: #CCCCCC;
+}
+
+.no-bootstrap.nav a.nav-selected,
+.no-bootstrap.nav a.nav-selected:hover {
+    color: #0000FF;
+}
+
+/*==============================================*/
+/*===== Misc ===================================*/
+/*==============================================*/
+.numeric-text
+{
+    text-align: right;
+}
+.error
+{
+    color: #FF0000;
+}
+.note
+{
+    padding: 10px;
+    background-color: #E5E5E5;
+    border-top: solid 1px #D2D2D2;
+    border-bottom: solid 1px #D2D2D2;
+}
+.nodata
+{
+    font-style: italic;
+    color: #808080;
+}
+div.nodata
+{
+    padding: 5px;
+    border: 1px solid #AAAAAA;
+}
+.watermark
+{
+    color: #999999;
+    font-style: italic;
+    font-family: Arial;
+    font-size: 10pt;
+}
+.control-table
+{
+		border-collapse: collapse;
+}
+.control-table th
+{
+		padding: 5px;
+		text-align: left;
+		font-weight: bold;
+}
+.control-table td
+{
+		padding: 5px;
+}
+/*==============================================*/
+.app .button_container
+{
+    text-align: center;
+    padding: 5px;
+}
+.app .button
+{
+}
+.session
+{
+    display: none;
+}
+.app .group
+{
+    position: relative;
+    border: solid 1px #C5C5FF;
+    margin-top: 20px;
+    background-color: #E5E5FF;
+}
+.app .group .group_label
+{
+    position: absolute;
+    top: -12px;
+    left: 15px;
+    padding-top: 3px;
+    padding-right: 8px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+    background-color: #CCCCFF;
+    color: #505050;
+    border: solid 1px #C5C5FF;
+}
+.app .group .group_content
+{
+    padding: 20px 10px 10px 10px;
+}
+.imagebtn
+{
+    cursor: pointer;
+    display: inline;
+    padding: 2px 4px 2px 4px;
+    border: solid 1px #FFFFFF;
+    background-color: #FFFFFF;
+}
+.imagebtn:hover
+{
+    border: solid 1px #CCCCCC;
+    background-color: #DDDDDD;
+}

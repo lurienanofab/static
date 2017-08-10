@@ -1,0 +1,14 @@
+﻿.params > caption {
+    text-align: left;
+}
+
+code,
+.resource {
+    font-family: 'Courier New';
+}
+
+.page-header div {
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}

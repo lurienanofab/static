@@ -1,0 +1,125 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    font-family: Arial;
+    font-size: 10pt;
+}
+
+h1 {
+    color: #003366;
+}
+
+h2 {
+    color: #CC6600;
+}
+
+    h2 a {
+        text-decoration: none;
+        color: #CC6600;
+    }
+
+        h2 a:hover {
+            color: #003366;
+        }
+
+.menu-nav {
+    padding-bottom: 60px;
+}
+
+.main {
+    padding: 10px;
+}
+
+.nav {
+    border: solid 1px #AAA;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 10px;
+}
+
+    .nav .nav-link {
+        color: #000;
+        display: block;
+        text-decoration: none;
+        border: solid 1px #DDD;
+        background-color: #EEE;
+        border-radius: 2px;
+        padding: 5px;
+        text-align: center;
+    }
+
+        .nav .nav-link:hover {
+            border-top: solid 1px transparent;
+            border-right: solid 1px #CCC;
+            border-bottom: solid 1px #CCC;
+            border-left: solid 1px transparent;
+            background-color: #E2E4EE;
+            text-decoration: none;
+            color: #336699;
+        }
+
+    .nav .group {
+        width: 200px;
+        float: left;
+        margin-right: 10px;
+        display: table;
+    }
+
+        .nav .group .group-header {
+            display: table-row;
+        }
+
+            .nav .group .group-header .group-header-text {
+                height: 40px;
+                color: #000080;
+                font-weight: bold;
+                text-align: center;
+                vertical-align: middle;
+                display: table-cell;
+            }
+
+        .nav .group .group-item {
+            display: table-row;
+        }
+
+            .nav .group .group-item .group-item-text {
+                height: 40px;
+                vertical-align: middle;
+                display: table-cell;
+            }
+
+        .nav .group .group {
+            margin-right: 0;
+        }
+
+.period-picker {
+    display: inline-block;
+}
+
+.datagrid {
+    border-collapse: collapse;
+    border-bottom: solid 1px #DCDCDC;
+}
+
+    .datagrid th {
+        padding: 5px;
+        background-color: #DCDCDC;
+    }
+
+    .datagrid td {
+        padding: 5px;
+        border-left: solid 1px #DCDCDC;
+        border-right: solid 1px #DCDCDC;
+    }
+
+    .datagrid tr:hover {
+        background-color: #E7FFFF;
+    }
+
+.error {
+    color: #FF0000;
+}

@@ -1,0 +1,52 @@
+﻿html, body, form
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    font-family: Arial;
+    font-size: 10pt;
+}
+.error-main
+{
+    
+}
+.error-header
+{
+    color: #336699;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 12pt;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+.error-display
+{
+    padding: 0;
+    border: 1px solid #AAAAAA;
+}
+.error-display-title
+{
+    padding: 5px;
+    background-color: #CF3333;
+    border-bottom: solid 1px #AAAAAA;
+    font-weight: bold;
+    color: #E5E5E5;
+}
+.error-display-content
+{
+    padding: 5px;
+    background-color: #FFFFFF;
+    overflow: auto;
+}
+.error-input
+{
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+.error-links
+{
+    padding-top: 10px;
+    font-size: 12pt;
+}

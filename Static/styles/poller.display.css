@@ -1,0 +1,3 @@
+html, body, form { padding: 0px; margin: 0px; height: 100%; }
+body { font-family: 'courier new'; font-size: 8pt; background-color: #F0F0F0; }
+.display { padding: 5px 0px 5px 5px; }

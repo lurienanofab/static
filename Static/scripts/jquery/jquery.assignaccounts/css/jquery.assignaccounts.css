@@ -1,0 +1,99 @@
+.assignaccounts {
+    font-size: 10pt;
+    font-family: arial;
+}
+
+    .assignaccounts .matrix {
+        border-collapse: separate;
+        border-spacing: 3px;
+    }
+
+        .assignaccounts .matrix th {
+            background-color: #eee;
+            border: 1px solid #ddd;
+            padding: 3px;
+        }
+
+        .assignaccounts .matrix td {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            padding: 3px;
+        }
+
+        .assignaccounts .matrix .column-header-active {
+            color: #0000ff;
+        }
+
+        .assignaccounts .matrix .row-header-active {
+            color: #0000ff;
+        }
+
+        .assignaccounts .matrix .column-active {
+            background-color: #faf8cc;
+        }
+
+        .assignaccounts .matrix .row-active {
+            background-color: #faf8cc;
+        }
+
+        .assignaccounts .matrix .target-active {
+            background-color: #ffe87c;
+        }
+
+    .assignaccounts .nodata {
+        font-style: italic;
+    }
+
+    .assignaccounts div.nodata {
+        padding: 5px;
+        border: solid 1px #cccccc;
+        display: inline-block;
+    }
+
+    .assignaccounts .filter {
+        border-collapse: separate;
+        border-spacing: 3px;
+    }
+
+        .assignaccounts .filter tbody th {
+            padding: 5px;
+            border: none;
+            text-align: right;
+        }
+
+        .assignaccounts .filter tbody td {
+            padding: 5px;
+            border: solid 1px #ccc;
+            background-color: #eeeeff;
+        }
+
+    .assignaccounts .edit-item {
+        min-width: 300px;
+        padding: 5px;
+        border: solid 1px #ccc;
+        border-radius: 3px;
+        background-color: #eeeeff;
+        margin-bottom: 10px;
+    }
+
+        .assignaccounts .edit-item table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+            .assignaccounts .edit-item table tbody th {
+                text-align: right;
+                font-weight: bold;
+                width: 60px;
+                padding: 3px;
+                border-bottom: 1px solid #ddd;
+            }
+
+            .assignaccounts .edit-item table tbody td {
+                padding: 3px;
+                border-bottom: 1px solid #ddd;
+            }
+
+            .assignaccounts .edit-item table tbody tr.warning-message-row {
+                color: #ff0000;
+            }

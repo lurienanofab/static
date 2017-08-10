@@ -1,0 +1,12 @@
+{
+  "name": "static",
+  "version": "1.0.0",
+  "description": "A shared source for 3rd party libraries used by LNF OnlineServices web applications.",
+  "license": "LicenseRef-LICENSE",
+  "repository": "https://bitbucket.org/lurienanofab/static.git",
+  "devDependencies": {
+    "grunt": "0.4.5",
+    "grunt-bowercopy": "1.2.4",
+    "grunt-contrib-less": "^1.4.1"
+  }
+}

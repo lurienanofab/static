@@ -1,0 +1,447 @@
+﻿h1 {
+    font-family: 'Palatino Linotype';
+    font-weight: bold;
+    font-size: 22pt;
+    color: #CC6600;
+}
+
+h2 {
+    font-family: 'Arial Black';
+    font-weight: bold;
+    font-size: large;
+    font-variant: small-caps;
+    color: #CC6600;
+}
+
+h3 {
+    font-family: 'Palatino Linotype';
+    font-weight: bold;
+    font-size: 16pt;
+    color: #CC6600;
+    margin-top: 3px;
+    vertical-align: bottom;
+    letter-spacing: 2px;
+}
+
+h4 {
+    font-family: 'Palatino Linotype';
+    font-size: 12pt;
+    font-weight: bold;
+    color: #003366;
+}
+
+.PageHeader {
+    font-family: 'Arial Black';
+    font-weight: bold;
+    font-size: large;
+    font-variant: small-caps;
+    color: #0033FF;
+}
+
+.NormalText {
+    font-family: 'Palatino Linotype';
+}
+
+.ButtonGroupHeader {
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    font-size: medium;
+    color: navy;
+    text-align: center;
+}
+
+.CommandButton {
+    border: #663399 ridge;
+    width: 209px;
+    position: static;
+    height: 32px;
+    font-size: small;
+    font-family: Arial;
+    text-align: center;
+}
+
+.SaveButton,
+.QuitButton {
+    font-weight: bold;
+    font-size: small;
+    font-family: Arial;
+    text-align: center;
+}
+
+.SaveButton {
+    border: #FF0000 4px ridge;
+    color: #FF0000;
+    background-color: #FFCCCC;
+    width: 220px;
+    height: 32px;
+}
+
+.QuitButton {
+    border: green 4px ridge;
+    color: green;
+    background-color: #CCFF99;
+}
+
+.StoreButton,
+.QuitStoreButton {
+    font-weight: bold;
+    font-size: x-small;
+    font-family: Arial;
+    text-align: center;
+}
+
+.StoreButton {
+    border: blue 2px ridge;
+    color: blue;
+    background-color: #CCCCFF;
+}
+
+.QuitStoreButton {
+    border: green 2px ridge;
+    color: green;
+    background-color: #CCFF99;
+}
+
+.CmdButton {
+    border: darkblue 1px solid;
+    font-family: Arial;
+    font-size: x-small;
+    color: darkblue;
+    margin: 1px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.SectionHeader {
+    font-family: 'Arial Black';
+    font-weight: bold;
+    font-size: medium;
+    font-variant: small-caps;
+    color: #0033FF;
+}
+
+.LabelText {
+    font-family: 'Times New Roman';
+    font-size: small;
+}
+
+.DDLText {
+    font-family: 'Arial';
+    font-size: small;
+}
+
+.WarningText {
+    font-family: 'Times New Roman';
+    font-size: small;
+    color: red;
+}
+
+div.section {
+    margin: 10px 20px 10px 20px;
+}
+/****** Outline Grid ****************************************/
+.GridText {
+    font-family: 'Times New Roman';
+    font-size: small;
+}
+
+.outline .GridHeader {
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: small;
+    background-color: #E0E0E0;
+}
+
+.outline .Item {
+    background-color: #ffffff;
+}
+
+.outline .AlternatingItem {
+    background-color: #ffffcc;
+}
+
+.outline .OutlineLevel1 {
+    font-size: small;
+    color: black;
+    border-top: black solid;
+    font-family: 'Arial Black';
+    background-color: powderblue;
+    font-variant: small-caps;
+}
+
+.outline .OutlineLevel2 {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: x-small;
+    font-variant: normal;
+    color: black;
+    background-color: lightcyan;
+}
+
+.CategoryBorder {
+    border-right: black 2px solid;
+}
+
+.HeaderWithRight {
+    border-right: black 2px solid;
+    border-bottom: black thick double;
+}
+
+.HeaderWithoutRight {
+    border-bottom: black thick double;
+}
+
+.SpacerRow {
+    height: 30px;
+}
+
+.GridHeader {
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: small;
+    background-color: #FFFF66;
+}
+
+/****** Button Table ****************************************/
+.button-table {
+    border-collapse: collapse;
+}
+
+    .button-table td {
+        padding: 8px;
+        vertical-align: middle;
+    }
+
+/****** GridView ********************************************/
+.gridview {
+    font-family: Verdana;
+    font-size: 8pt;
+    color: #000000;
+    border: #DCDCDC 1px solid;
+    background-color: #FFFFFF;
+}
+
+    .gridview tr.header th {
+        background-color: #DCDCDC;
+        font-weight: bold;
+        text-align: center;
+        color: #000000;
+    }
+
+        .gridview tr.header th a {
+            color: #000000;
+        }
+
+    .gridview th,
+    .gridview td {
+        padding: 3px;
+        border-right: #DCDCDC 1px solid;
+        border-left: #DCDCDC 1px solid;
+    }
+
+    .gridview tr.row td {
+        background-color: #EEEEEE;
+        color: #000000;
+    }
+
+    .gridview tr.altrow td {
+        background-color: #FFFFFF;
+    }
+
+    .gridview.highlight tr.row:hover td,
+    .gridview.highlight tr.altrow:hover td {
+        background-color: #DDFFFF;
+    }
+
+    .gridview tr.selected td {
+        background-color: #FFFFE0;
+        font-weight: bold;
+        color: #000000;
+    }
+
+    .gridview tr.footer td {
+        background-color: #CCCCCC;
+        color: #000000;
+    }
+
+    .gridview tr.pager td {
+        background-color: #F5F5DC;
+        color: #000000;
+        text-align: center;
+        border-top: solid 1px #DCDCDC;
+    }
+
+        .gridview tr.pager td table {
+            margin: 0 auto;
+        }
+
+            .gridview tr.pager td table td {
+                border: none;
+            }
+
+    .gridview .edge {
+        border-right: solid 1px #808080;
+    }
+
+    .gridview .center {
+        text-align: center;
+    }
+
+    .gridview .left {
+        text-align: left;
+    }
+
+    .gridview .right {
+        text-align: right;
+    }
+
+/****** Summary *********************************************/
+.summary {
+    font-family: Verdana;
+    font-size: 10pt;
+}
+
+.summary-table {
+    border-collapse: separate;
+    border-spacing: 2px;
+    border: none;
+}
+
+    .summary-table th {
+        border-bottom: solid 1px #CCCCCC;
+        background-color: #EAEAEA;
+        padding: 4px;
+    }
+
+    .summary-table td {
+        border-bottom: solid 1px #CCCCCC;
+        padding: 4px;
+        text-align: right;
+    }
+
+        .summary-table td.section-title {
+            color: #003366;
+            font-weight: bold;
+            text-align: left;
+            background-color: #EEEEFF;
+        }
+
+    .summary-table .no-border {
+        border: none;
+    }
+
+    .summary-table .normal {
+        border-right: none;
+    }
+
+    .summary-table .edge {
+        border-right: solid 1px #808080;
+    }
+
+    .summary-table .center {
+        text-align: center;
+    }
+
+/****** Criteria ********************************************/
+.criteria {
+    padding: 0px 10px 5px 10px;
+}
+
+    .criteria .criteria-item {
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .criteria .criteria-table {
+        margin-top: 10px;
+        border-collapse: collapse;
+    }
+
+        .criteria .criteria-table td {
+            padding: 5px;
+        }
+/************************************************************/
+
+.report-table {
+    border-collapse: separate;
+    border-spacing: 1px;
+}
+
+    .report-table td,
+    .report-table th {
+        padding: 1px;
+    }
+
+    .report-table th {
+        background-color: #e0e0e0;
+        font-weight: bold;
+        color: #000000;
+        text-align: left;
+    }
+
+.report-button,
+.report-select,
+.report-text,
+.year-select,
+.month-select {
+    padding: 4px;
+}
+
+.back-link {
+}
+
+{
+    padding: 4px;
+}
+
+.user-select {
+    width: 200px;
+}
+
+.org-select {
+    width: 250px;
+}
+
+.acct-select {
+    width: 350px;
+}
+
+.export-link {
+    font-family: Verdana;
+    font-size: 10pt;
+    margin-top: 5px;
+}
+
+.aux-cost-table {
+    border-collapse: collapse;
+    border: 1px ridge #d3d3d3;
+    width: 100%;
+}
+
+    .aux-cost-table td {
+        font-size: 10pt;
+        padding: 2px;
+        border-bottom: solid 1px #d3d3d3;
+    }
+
+    .aux-cost-table tr.aux-cost-header td {
+        white-space: nowrap;
+        font-weight: bold;
+        background-color: #d3d3d3;
+    }
+
+    .aux-cost-table tr.aux-cost-row td {
+        background-color: #ffffff;
+    }
+
+    .aux-cost-table tr.aux-cost-altrow td {
+        background-color: #faf0e6;
+    }
+
+    .aux-cost-table tr.aux-cost-footer td {
+        background-color: #d3d3d3;
+    }
+
+#ui-datepicker-div {
+    font-size: 12px;
+}

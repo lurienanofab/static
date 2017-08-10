@@ -1,0 +1,32 @@
+﻿@using Static.Models;
+
+@model HomeModel
+@{
+    ViewBag.Title = "Static";
+}
+
+This is a common source for 3rd party javascript libraries, shared custom js/css files, images, fonts and other static content.
+
+<hr />
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Path</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Files)
+        {
+            <tr>
+                <td>@item</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section scripts{
+    <script>
+        $(".table").dataTable();
+    </script>
+}

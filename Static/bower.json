@@ -1,0 +1,33 @@
+{
+  "name": "Static",
+  "version": "1.0.0",
+  "dependencies": {
+    "underscore": "1.8.3",
+    "jquery": "1.12.1",
+    "jquery-ui": "1.11.4",
+    "bootstrap": "3.3.6",
+    "bootstrap-datepicker": "1.6.0",
+    "bootstrap-timepicker": "0.5.2",
+    "startbootstrap-simple-sidebar": "1.0.5",
+    "chosen-bootstrap": "1.1.0",
+    "moment": "2.11.2",
+    "datatables": "1.10.11",
+    "datatables-plugins": "*",
+    "codemirror": "5.12.0",
+    "footable": "3.0.6",
+    "js-cookie": "2.1.0",
+    "json2": "latest",
+    "fullcalendar": "2.6.1",
+    "qtip2": "2.2.1",
+    "components-modernizr": "2.8.3",
+    "jclock": "dsparling/jclock",
+    "jquery-watermark": "citrusbyte/jquery-watermark",
+    "numeral": "1.5.3",
+    "tinymce": "4.4.0",
+    "chart.js": "*",
+    "urijs": "1.18.11"
+  },
+  "resolutions": {
+    "jquery": ">=1.4.4"
+  }
+}

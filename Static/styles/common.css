@@ -1,0 +1,44 @@
+﻿body
+{
+    font-family: Arial;
+}
+.demo
+{
+    padding: 10px;
+}
+.tabs
+{
+    font-size: 8pt;
+}
+.demo_title
+{
+    font-size: 10pt;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+#dialog-modal
+{
+    display: none;
+}
+#rounded
+{
+    border: solid 1px #808080;
+    background-color: #DFDFDF;
+    padding: 10px;
+    width: 400px;
+    height: 50px;
+}
+#tabs1
+{
+    width: 420px;
+}
+#wmtxtbox
+{
+    width: 420px;
+}
+#wmtxtarea
+{
+    width: 420px;
+    height: 50px;
+    font-family: Arial;
+}

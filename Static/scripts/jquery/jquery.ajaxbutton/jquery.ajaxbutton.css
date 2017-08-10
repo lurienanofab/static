@@ -1,0 +1,46 @@
+﻿.ajaxbutton {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+    .ajaxbutton a {
+        display: block;
+        padding: 5px 20px 5px 20px;
+        border: solid 1px #ccc;
+        background-color: #e0e0e0;
+        font-size: 10pt;
+        font-weight: bold;
+        line-height: 14pt;
+        color: #003366;
+        box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+        border-radius: 0.5em;
+    }
+
+        .ajaxbutton a:link,
+        .ajaxbutton a:visited,
+        .ajaxbutton a:active,
+        .ajaxbutton a:hover {
+            text-decoration: none;
+            outline: none;
+            color: #003366;
+        }
+
+        .ajaxbutton div.spinner {
+            float: right;
+            width: 16px;
+            margin-left: 5px;
+            overflow: hidden;
+            background-image: url('images/spinner.gif');
+            background-repeat: no-repeat;
+            background-position: right center;
+        }
+
+        .ajaxbutton a img.spinner {
+            float: right;
+            margin-top: 1px;
+            margin-left: 5px;
+        }
+    
+        .ajaxbutton a.disabled {
+            color: #808080;
+        }

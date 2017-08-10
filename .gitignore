@@ -1,0 +1,14 @@
+.vs/
+bin/
+obj/
+packages/
+TestResults/
+PublishProfiles/
+*.suo
+*.user
+Static/Web.config
+Static/Web.Debug.config
+Static/Web.Release.config
+lib/
+bower_components/
+node_modules/

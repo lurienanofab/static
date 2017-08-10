@@ -1,0 +1,224 @@
+﻿/*===== Accordion =============================*/
+.navigation {
+    width: 200px !important;
+}
+
+.accordion-nav {
+    width: 200px;
+    font-family: Tahoma, Sans-Serif;
+}
+
+    .accordion-nav p {
+        margin: 0 4px 5px;
+    }
+
+    .accordion-nav .ui-accordion-content {
+        padding: 5px;
+    }
+
+        .accordion-nav .ui-accordion-content a:link, .accordion-nav .ui-accordion-content a:visited, .accordion-nav .ui-accordion-content a:active {
+            color: #006AD5;
+            text-decoration: none;
+        }
+
+        .accordion-nav .ui-accordion-content a:hover {
+            color: Navy;
+            text-decoration: underline;
+        }
+
+        .accordion-nav .ui-accordion-content > div {
+            padding-bottom: 0px 5px 5px 10px;
+        }
+
+    .accordion-nav h3.ui-accordion-header {
+        background-image: none;
+        background-color: #2E4D7B;
+    }
+
+        .accordion-nav h3.ui-accordion-header a {
+            color: white;
+            padding-left: 15px;
+        }
+
+    .accordion-nav h3.ui-accordion-header, .accordion-nav h3.ui-state-active, .accordion-nav h3.ui-state-active a {
+        font-size: 10pt;
+        font-weight: bold;
+    }
+
+        .accordion-nav h3.ui-state-active, .accordion-nav h3.ui-state-active a {
+            background-color: #5078B3;
+            color: #FFFFFF;
+        }
+
+    .accordion-nav .ui-accordion-content, .accordion-nav .ui-accordion-content p {
+        font-size: 10pt;
+        background-color: #D3DEEF;
+        background-image: none;
+    }
+
+    .accordion-nav .ui-icon {
+        display: none;
+    }
+/*===== Menu ==================================*/
+#site-content {
+    padding-top: 90px;
+    padding-left: 10px;
+}
+
+#site-menu {
+    width: 100%;
+    position: fixed;
+    background-color: #D2D2D2;
+    border-bottom: solid 4px #AAAAAA;
+}
+
+    #site-menu table {
+        table-layout: fixed;
+        border-collapse: collapse;
+        margin: 0px;
+        padding: 0px;
+    }
+
+        #site-menu table td {
+            white-space: nowrap;
+            overflow: hidden;
+            padding: 0px;
+            border: none;
+        }
+
+#jclock {
+    padding-top: 5px;
+}
+
+.menu-logo {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-top: solid 1px #AAAAAA;
+    border-left: solid 1px #AAAAAA;
+}
+
+.menu-nav {
+    color: #FFFFFF;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12pt;
+    padding-top: 20px;
+    background-color: #D2D2D2;
+    white-space: nowrap;
+    width: 1070px;
+}
+
+.menu-hidden {
+    display: none;
+}
+
+.menu-parent, .menu-parent-disabled {
+    float: left;
+    border-right: solid 1px #003366;
+    border-left: solid 1px #336699;
+}
+
+.menu-parent {
+    cursor: pointer;
+}
+
+.menu-parent-disabled {
+    font-size: 10pt;
+}
+
+.menu-parent-off {
+    background-color: #2E4D7B;
+}
+
+.menu-parent-on {
+    background-color: #5078B3;
+}
+
+.menu-parent a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.menu-parent-on a {
+    text-decoration: none;
+}
+
+    .menu-parent-on a:hover {
+        color: #FFD700;
+        text-decoration: none;
+    }
+
+.menu-parent-text {
+    font-weight: bold;
+    text-align: center;
+}
+
+.menu-parent .menu-parent-text {
+    padding: 23px;
+}
+
+.menu-parent-disabled .menu-parent-text {
+    padding: 15px 20px 0px 20px;
+    height: 51px;
+}
+
+.menu-parent-children {
+    position: absolute;
+    margin-left: -1px;
+    background-color: #5078B3;
+    border-right: solid 1px #003366;
+    border-bottom: solid 1px #003366;
+    border-left: solid 1px #336699;
+    z-index: 99;
+}
+
+.menu-item-off {
+    border: solid 2px #5078B3;
+}
+
+.menu-item-on {
+    border: solid 2px #5078B3;
+}
+
+.menu-item-text a {
+    display: block;
+    padding: 5px;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+    .menu-item-text a:link, .menu-item-text a:visited, .menu-item-text a:active {
+        color: #FFFFFF;
+        text-decoration: none;
+        border: solid 1px #5078B3;
+    }
+
+    .menu-item-text a:hover {
+        color: #FFD700;
+        text-decoration: none;
+        border: solid 1px #336699;
+        background: #2E4D7B url(/static/images/itembg.gif) repeat-x;
+    }
+
+.menu-applications, .menu-applications .menu-parent-children {
+    width: 150px;
+}
+
+.menu-reports, .menu-reports .menu-parent-children {
+    width: 150px;
+}
+
+.menu-administration, .menu-administration .menu-parent-children {
+    width: 150px;
+}
+
+.menu-help, .menu-help .menu-parent-children {
+    width: 150px;
+}
+
+.menu-logout {
+    width: 150px;
+}
+
+.menu-clock {
+}
