@@ -1,0 +1,28 @@
+.data-table {
+    border-collapse: collapse;
+    width: 100%;
+    border: solid 1px #d3d3d3;
+    font-size: 12px;
+}
+
+    .data-table > thead > tr > th {
+        background-color: #d3d3d3;
+        padding: 5px;
+        vertical-align: middle;
+    }
+
+    .data-table > tbody > tr > td {
+        padding: 5px;
+        border-bottom: solid 1px #d3d3d3;
+        vertical-align: middle;
+    }
+
+    .data-table > tbody > tr:nth-child(even) > td {
+        background: #faf0e6;
+    }
+
+    .data-table > tfoot > tr > td {
+        background-color: #d3d3d3;
+        padding: 5px;
+        vertical-align: middle;
+    }
